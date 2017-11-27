@@ -6,7 +6,7 @@
 # clone repositorie into $HOME/.vim folder
 git clone git@github.com:villamide/vim-config.git ~/.vim
 # create system link for $HOME/.vimrc
-ln -s ~/.vimrc ~/.vim/.vimrc
+ln -s ~/.vim/.vimrc ~/.vimrc 
 ```
 
 #### 2 - Set up Vundle
