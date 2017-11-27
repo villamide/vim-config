@@ -1,5 +1,5 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible				" be iMproved, required
+filetype off					" required
 
 " Vundle config
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -12,7 +12,9 @@ Plugin 'scrooloose/nerdcommenter'		" NERDCommenter
 Plugin 'vim-airline/vim-airline'		" Vim Airline
 Plugin 'vim-airline/vim-airline-themes'		" Vim Airline-Themes
 Plugin 'chriskempson/base16-vim'		" Color Scheme
-Plugin 'airblade/vim-gitgutter'
+Plugin 'airblade/vim-gitgutter'			" Git diff
+Plugin 'kien/ctrlp.vim'				" CtrlP
+Plugin 'mattn/emmet-vim'			" Emmet for vim
 
 call vundle#end()           			" required
 filetype plugin indent on    			" required
