@@ -7,6 +7,8 @@ imap jf <Esc>
 " Movement and center
 nnoremap j jzz
 nnoremap k kzz
+nnoremap n nzz
+nnoremap N Nzz
 
 " Direction arrows
 nnoremap <up> ddkP
@@ -15,8 +17,8 @@ nnoremap <left> <Nop>
 nnoremap <right> <Nop>
 
 " Insert Empty line
-nnoremap <s-return> O<Esc>j
-nnoremap <Return> o<Esc>k
+nnoremap <S-Enter> O<Esc>j
+nnoremap <CR> o<Esc>k
 
 " Function keys
 nnoremap <F2> :ls<CR>
@@ -69,4 +71,4 @@ noremap <C-k> <C-w>k
 noremap <Space> :
 
 " G goes to last character
-noremap G G$
+noremap G G$zz
