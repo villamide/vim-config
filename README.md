@@ -1,4 +1,5 @@
-# **Vim Config**
+**Vim Config**
+==============
 
 #### 1 - Clone this config and link .vimrc
 
