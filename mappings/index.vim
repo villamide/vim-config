@@ -5,10 +5,10 @@ imap fj <Esc>
 imap jf <Esc>
 
 " Movement and center
-nnoremap j jzz
-nnoremap k kzz
-nnoremap n nzz
-nnoremap N Nzz
+nmap j jzz
+nmap k kzz
+nmap n nzz
+nmap N Nzz
 
 " Direction arrows
 nnoremap <up> ddkP
@@ -32,6 +32,9 @@ noremap <F4> :set list!<CR>
 
 " Toggle highlight
 noremap <F5> :set hlsearch!<CR>
+
+" Map 'Centered mode'
+noremap <F6> :call CenteredMode()<CR>
 
 " Shortcuts for common expressions
 noremap <leader>( a()<Esc>i
