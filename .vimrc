@@ -34,6 +34,7 @@ source ~/.vim/config/conf.vim
 source ~/.vim/config/NERDTree.vim
 source ~/.vim/config/NERDCommenter.vim
 source ~/.vim/config/syntastic.vim
+source ~/.vim/config/functions.vim
 
 " Import mappings
 source ~/.vim/mappings/index.vim
