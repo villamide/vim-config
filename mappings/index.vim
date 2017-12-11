@@ -3,13 +3,13 @@
 " Escape easier
 imap fj <Esc>
 imap jf <Esc>
+imap jk <Esc>
 
 " Movement and center
 nmap j jzz
 nmap k kzz
 nmap n nzz
 nmap N Nzz
-
 " Direction arrows
 nnoremap <up> ddkP
 nnoremap <down> ddp
