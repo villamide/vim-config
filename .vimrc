@@ -17,6 +17,10 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'lilydjwg/colorizer'
+Plugin 'scrooloose/syntastic'
+" Language specific
+Plugin 'digitaltoad/vim-pug'
+Plugin 'posva/vim-vue'
 
 call vundle#end()
 filetype plugin indent on
@@ -29,6 +33,7 @@ colorscheme base16-default-dark
 source ~/.vim/config/conf.vim
 source ~/.vim/config/NERDTree.vim
 source ~/.vim/config/NERDCommenter.vim
+source ~/.vim/config/syntastic.vim
 
 " Import mappings
 source ~/.vim/mappings/index.vim
